@@ -1,0 +1,6 @@
+pypdf
+streamlit
+python-dotenv
+together
+googletrans==3.1.0a0
+gtts
