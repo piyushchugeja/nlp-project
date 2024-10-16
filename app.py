@@ -96,9 +96,9 @@ def main():
             
         st.session_state.summary = summary
     
-    st.subheader('Summary')
     summary = st.session_state.summary
     if summary:
+        st.subheader('Summary')
         if selected_language != 'en':
             summary = translator.translate(summary, src='en', dest=selected_language).text
         st.write(summary)
